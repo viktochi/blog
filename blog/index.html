@@ -26,9 +26,9 @@ description: A blog about the gracefulness and failures that life gives
         {% for post in site.posts %}
         <div class="col-md-6 col-lg-4 mb-5 mb-lg-5 blog-entry" data-aos="fade-up" data-aos-delay="200">
           <a href="#" class="d-block mb-4">
-            <img src="/images/img_1.jpg" alt="Image" class="img-fluid card">
+            <img src="{{ "/images/img_1.jpg" | relative_url }}" alt="Image" class="img-fluid card">
           </a>
-          <h2 class="mb-4"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <h2 class="mb-4"><a href= "{{ post.url }}" >{{ post.title }}</a></h2>
           <div class="mb-4 post-meta d-flex align-items-center">
             <div class="mr-2"><img src="{{ post.postImage }}" alt="Image" class="img-fluid card"></div>
             <div><span>By <a href="#">{{ post.author }}</a></span> &mdash; <span>{{ post.date | date: '%B %d, %Y' }}</span></div>
