@@ -1141,10 +1141,11 @@ h5,
     line-height: 40px
 }
 
-@media(max-width:380px) {
+@media(max-width:360px) {
     .blog-hide {
         display: none;
     }
+    
 }
 
 

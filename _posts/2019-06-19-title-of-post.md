@@ -1,7 +1,8 @@
 ---
 layout: post
 title: They Say All Is Fair in Love and War.
-postImage: images/img_1.jpg
+featureImage: ../../../images/img_1.jpg
+postImage: ../../../images/img_30.jpg
 author: Viktor Zen
 date: 2019-12-30
 postFooter: Additional information, and maybe a <a href="#">link or two</a>

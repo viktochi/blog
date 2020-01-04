@@ -66,12 +66,12 @@ layout: default
       <div class="row mb-5">
         {% for post in site.posts limit:3 %}
         <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 blog-entry" data-aos="fade-up" data-aos-delay="200">
-          <a href="{{ post.url }}" class="d-block mb-4">
+          <a href="{{site.baseurl}}{{ post.url }}" class="d-block mb-4">
             <img src="{{ "/images/img_1.jpg" | relative_url }}" alt="Image" class="img-fluid card">
           </a>
-          <h2 class="mb-4"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <h2 class="mb-4"><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
           <div class="mb-4 post-meta d-flex align-items-center">
-            <div class="mr-2"><img src="{{ post.postImage }}" alt="Image" class="img-fluid card"></div>
+            <div class="mr-2"><img src="{{ "/images/img_30.jpg" | relative_url }}" alt="Image" class="img-fluid card"></div>
             <div><span>By <a href="#blog">{{ post.author }}</a></span> &mdash; <span>{{ post.date | date: '%B %d, %Y' }}</span></div>
           </div>
           <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
