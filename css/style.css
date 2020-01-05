@@ -4,7 +4,7 @@ body {
     font-weight: 300;
     font-size: 1rem;
     background: #232531;
-    font-family: "tiempos headline",roboto mono, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji
+    font-family: "Noto Sans", roboto mono, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji
 }
 
 ::-moz-selection {
@@ -1141,11 +1141,19 @@ h5,
     line-height: 40px
 }
 
-@media(max-width:360px) {
+@media(max-width:560px) {
     .blog-hide {
         display: none;
     }
-    
+
+    .btn-custom {
+        background: -webkit-gradient(linear, left top, right top, from(#096147), color-stop(70%, #20c997));
+        background: -webkit-linear-gradient(left, #096147, #20c997 70%);
+        background: -o-linear-gradient(left, #096147, #20c997 70%);
+        background: linear-gradient(to right, #096147,#20c997 70%);
+        z-index: 1
+    }
+
 }
 
 
