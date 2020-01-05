@@ -4,7 +4,7 @@ body {
     font-weight: 300;
     font-size: 1rem;
     background: #232531;
-    font-family: "Noto Sans", roboto mono, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji
 }
 
 ::-moz-selection {
