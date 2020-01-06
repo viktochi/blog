@@ -28,26 +28,15 @@ description: A blog about the gracefulness and failures that life gives
           <h2 class="mb-4"><a href= "{{site.baseurl}}{{ post.url }}" | relative_url }}" >{{ post.title }}</a></h2>
           <div class="mb-4 post-meta d-flex align-items-center">
             <!--<div class="mr-2"><img src="{{ "/images/img_30.jpg" | relative_url }}" alt="Image" class="img-fluid card"></div>-->
-            <div><span>By <a href="#">{{ post.author }}</a></span> &mdash; <span>{{ post.date | date: '%B %d, %Y' }}</span></div>
+            <div><!--<span>By <a href="#">{{ post.author }}</a></span> -->&mdash; <span>{{ post.date | date: '%B %d, %Y' }}</span></div>
           </div>
           <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
           
         </div>
         {% endfor %}
       </div>
-      
-      <div class="row" data-aos="fade-up" data-aos-delay="500">
-        <div class="col-md-12 text-center">
-          <div class="custom-pagination">
-            <span>1</span>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <span>...</span>
-            <a href="#">10</a>
-          </div>
-        </div>
-      </div>
+      <hr>
+      <hr>
+      <hr>
     </div>
   </div>
