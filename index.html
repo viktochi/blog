@@ -11,7 +11,7 @@ title: Home
           <h1 class="d-block mb-4" data-aos="fade-up" data-aos-delay="200">Welcome to the home of my mind flights.</h1>
           <p class="d-block mb-3 caption" data-aos="fade-up" data-aos-delay="300"> &mdash; Most times, I am either trying to work or sleeping in..</p>
           
-          <a href="#blog" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Read Blog</span></a>
+          <a href="#blog" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Read My Blog</span></a>
           <a href="{{ "/gallery/index.html" | relative_url }}" class="btn-custom" data-aos="fade-up" data-aos-delay="400"><span>Explore Photo Gallery</span></a>
         </div>
       </div>
@@ -34,18 +34,17 @@ title: Home
         <div class="col-lg-6 ml-auto">
           <h2 class="text-white mb-4 " data-aos="fade-right" data-aos-delay="200">Viktor Tochi</h2>
           <div class="bio pl-lg-5">
-            <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">Development Economist | Web Developer | Data Analyst</span>
-            <p class="mb-4" data-aos="fade-right" data-aos-delay="400">I am <strong>Viktor Tochi Okoro.</strong> <br>I studied Development Economics at Berkeley, but these days I write code for a living. I strongly believe in lifelong learning and that is why surfing google and stack overflow for resolved issues and bug fixes is my hobby. <br> My life is quite messy on the periphery but at its core I love to make small positive changes in my immediate communities because the world is quite too big for me, for now. 
+            <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">I am a - Development Economist | Web Developer | Data Analyst</span>
+            <p class="mb-4" data-aos="fade-right" data-aos-delay="400">My name is <strong>Viktor Tochi Okoro.</strong> <br>I studied Development Economics and Technology Entrepreneurship at the University of California, Berkeley and these days I write code for a living. I strongly believe in lifelong learning &mdash; that is why surfing google and stack overflow for resolved issues and bug fixes is my hobby. <br> My life is quite messy on the periphery but at its core I love to make small positive changes in my immediate communities because the world is quite too big for me, for now. 
             </p>
             <p data-aos="fade-right" data-aos-delay="500">
               Read more about me <a href="{{ "/about" | relative_url }}">HERE!</a>
             </p>
             <p data-aos="fade-right" data-aos-delay="500">
-              &mdash; I am a social too so follow me! &mdash;
-              <a href="#" class="p-2"><span class="icon-linkedin"></span></a>
-              <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-2"><span class="icon-github"></span></a>
-              <a href="www.instagram.com/viktortochi" class="p-2"><span class="icon-instagram"></span></a>
+              &mdash; Follow me on social! &mdash;
+              <a href="{{ "https://www.linkedin.com/in/victorokoro" | relative_url }}" target="_blank" class="p-2"><span class="icon-linkedin"></span></a>
+              <a href="{{ "https://www.twitter.com/viktochi" | relative_url }}" target="_blank" class="p-2"><span class="icon-twitter"></span></a>
+              <a href="{{ "https://www.instagram.com/viktortochi" | relative_url }}" target="_blank" class="p-2"><span class="icon-instagram"></span></a>
             </p>
           </div>
         </div>
@@ -63,7 +62,7 @@ title: Home
           </div>
         </div>
         <div class="col-lg-6 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="100">
-          <p> Once in a while I write about things I find interesting in my life and work, so this is my blog about life and things. </p>
+          <p> Once in a while I write about things I find interesting in my life and work - I also try to make them interesting and most of them end up here. </p>
         </div>
       </div>
       <div class="row mb-5">
@@ -75,7 +74,7 @@ title: Home
           <h2 class="mb-4"><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
           <div class="mb-4 post-meta d-flex align-items-center">
             <!--<div class="mr-2"><img src="{{ "/images/img_30.jpg" | relative_url }}" alt="Image" class="img-fluid card"></div>-->
-            <div><!--<span>By <a href="#blog">{{ post.author }}</a></span>--> &mdash; <span>{{ post.date | date: '%B %d, %Y' }}</span></div>
+            <div><!--<span>By <a href="#blog">{{ post.author }}</a></span>--> &mdash; <span class="font-weight-bold " >{{post.categories}}</span> &mdash; <span>{{ post.date | date: '%B %d, %Y' }}</span></div>
           </div>
           <p>{{ post.excerpt | strip_html | truncatewords: 60 }}</p>
         </div>
@@ -109,7 +108,7 @@ title: Home
             <div class="col-md-9">
               <h2 class="text-white">Youujet! &mdash; a social collaboration network for young Nigerian professionals</h2>
               <p data-aos="fade-right" data-aos-delay="500">
-                Read more about youujet! <a href="{{ "/" | relative_url }}">HERE!</a>
+                Read more about youujet! <a href="{{ "https://www.youujet.com" | relative_url }}" target="_blank">HERE!</a>
               </p>
               <span>By &mdash; Vik and Co.</span>
             </div>
